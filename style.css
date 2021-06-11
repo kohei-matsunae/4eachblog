@@ -1,0 +1,82 @@
+.logo img{
+    width: 250px;
+}
+header{
+    width: 250%;
+    height: 50px;
+    background-color: black;
+    
+}
+
+header ul{
+    list-style-type: none;
+    line-height: 60px;
+}
+header li{
+    display: inline;
+    padding: 20px;
+    color: white;
+}
+
+
+.left{
+    float: left;
+    width: 65%;
+    line-height: 250%;
+    margin-left: 0.5em;
+}
+.left h2{
+    border-left: solid;
+    border-bottom: 1px solid;
+}
+.left img{
+    width: 100%;
+}
+.img_box{
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+}
+.img_box p{
+    display: inline-block;
+    width: 23%;
+    padding-top: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+}
+
+
+
+
+.right{
+    float: right;
+    width: 30%;
+    margin-right: 0.5em;
+    margin-top: 1em;
+}
+.right ul{
+    list-style: none;
+    line-height: 250%;
+}
+
+.right h3{
+    border-bottom: 1px dashed;
+     
+}
+.right ul li{
+    padding: 3px;
+    text-align: left;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 40px;
+}
